@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEJA FELIZ</title>
+</head>
+<div  id="area" onclick="clicar()" onmouseenter = "entrar()" onmouseout = "sair()"> 
+
+    ai cara
+
+</div>
+<style>
+        div#area{
+            font: normal 30pt Arial;
+            background: rgb(20, 221, 137);
+            color: white;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+            text-align-last: left;
+            } 
+</style>
+
+<body>
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener("click", clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener("mouseout", sair) //para deixar o código menos poluído
+        
+    function clicar() {
+        a.innerText = "meu deus"
+        a.style.background = 'purple'
+        } //quando clicaar com o mouse
+    
+        function entrar() {
+            a.innerText = "tá foda"
+            a.style.background = 'yellow'
+        } //quando o mouse passar por dentro do bloco
+    
+        function sair(){
+            a.innerText = "mas vamos lá"
+            a.style.background = 'red'
+        } //quando o mouse sair do bloco
+        </script>  
+</body>
+</html>
