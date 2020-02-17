@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+.titulo {
+    background-color: rgb(238, 132, 94);
+    text-align: center;
+}
+
+.categorias {
+    display: inline-block; /* ocupa apenas o espaço desejado*/
+    width: 20%;
+    border: 2px solid rgb(238, 132, 94);
+    height: 300px;
+}
+
+h2 {
+    border: 2px solid rgb(238, 132, 94);
+}
