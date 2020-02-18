@@ -1,0 +1,19 @@
+@charset "UTF-8";
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+ul{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    padding-left: 0px;
+}
+
+li:hover {
+    background-color: #f5a91c;
+    color: black;
+    cursor: pointer;
+}

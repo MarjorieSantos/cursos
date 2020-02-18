@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+ul{
+    background-color: rgb(223, 213, 213);
+    width: 200px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: Arial;
+}
+
+li{
+    padding: 10px 0px 10px 15px;
+
+}
+
+li:first-child {
+    background-color: #f5a91c;
+    color: white;
+}
+
+li:hover{
+    background-color: #ddd;
+    cursor: pointer;
+
+}
+
+
