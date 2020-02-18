@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#first {
+    float: left;
+    width: 200px;
+    background-color: rgb(218, 210, 210);
+    padding:2px 10px;
+}
+
+#second {
+    background:rgb(218, 210, 210);
+    width: 200px;
+	color: black;
+    padding:2px 10px;
+    float: left;
+    text-align:justify;
+
+}
+
+#third {
+    float: left;
+    width: 200px;
+    background-color: rgb(218, 210, 210);
+    padding:2px 10px;
+}
+
+footer{
+  bottom: 0;
+  width: 90%;
+  text-align: center;
+  position: fixed;
+
+}
