@@ -1,0 +1,23 @@
+  
+@charset  "UTF-8" ;
+ 
+body {
+    background-color: rgb(255, 196, 196);
+    text-align: center;
+}
+
+.correct {
+    border: 3px solid rosybrown;
+    display: inline-block;
+    height: 200px;
+}
+
+.wrong {
+    border: 3px solid rosybrown;
+    display: inline-block;
+    height: 200px;
+}
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+
+
+
+#red {
+    box-sizing: border-box;
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+}
+
+#blue {
+    box-sizing: border-box;
+    background-color: blue;
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    position: fixed;
+}
+
+#yellow {
+    box-sizing: border-box;
+    background-color: yellow;
+    display: inline-block;
+    width: 10%;
+    height: 100px;
+    position: absolute;
+}

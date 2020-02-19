@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.box{
+    margin: 10px 0px;
+    height: 50px;
+    padding: 10px;
+}
+
+.box2{
+    margin: 10px 0px;
+    height: 50px;
+    padding: 10px;
+    width: 200px;
+}
+
+.box3{
+    display: inline-block;
+    margin: 10px 0px;
+    height: 50px;
+    padding: 10px;
+    width: 200px;
+}
+
+.box4{
+    display: inline-block;
+    margin: 10px 0px;
+   padding: 10px;
+}
+
+.lab{
+    background-color: yellow;
+}
+
+.SP{
+    background-color: green;
+}
+
+.JS{
+    background-color: pink;
+}
+
+
+
