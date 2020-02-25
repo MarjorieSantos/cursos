@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos com JS</title>
+</head>
+    <!--eventos capturados 
+        onload
+        onresize
+    -->
+<body onload="console.log('A página foi totalmente carregada')">
+
+    <!--eventos feitos com o mouse
+    onmouseover
+    onmouseout
+    onclick
+    ondblclick-->
+
+    <div onclick="msg()" style="background-color: yellow; height: 150px; width: 150px;"></div>
+<br>
+<br>
+<br>
+    <!--eventos com teclado
+    onkeydown  
+    onkeypress  
+    onkeyup-->
+
+    <input onkeypress="alert('vc apertou uma tecla')" type="text">
+
+        <!--eventos capturados por elementos que fazem parte do formulário
+            onfocus
+            onblur
+            onchange
+        -->
+    <input onfocus="alert('o elemtno oi focado')" onblur="alert('o elemento perdeu o foco')" type="text">
+
+    <select onchange="alert('a opção foi alterada')">
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+
+
+    <script src="eventos.js"></script>
+</body>
+</html>
