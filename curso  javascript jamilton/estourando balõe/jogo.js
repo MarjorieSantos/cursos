@@ -34,6 +34,12 @@ function iniciaJogo(){
 
     function contagem_tempo(segundos){
         segundos = segundos - 1;
+
+        if(segundos == -1){
+            clearTimeout(timerId); //para a excecução da função settimeout
+            return false
+        }
+
          document.getElementById('cronometro').innerHTML = segundos;
         timeId = setTimeout("contagem_tempo("+segundos+")", 1000)
     }
